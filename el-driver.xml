@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/aaronw/kicad/Projects/el-driver/el-driver.sch</source>
+    <date>Mon 21 Dec 2020 01:26:03 AM PST</date>
+    <tool>Eeschema 5.1.8-5.1.8</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>el-driver.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>NE555D</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ne555.pdf</datasheet>
+      <libsource lib="Timer" part="NE555D" description="Precision Timers, 555 compatible, SOIC-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDF5511</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDF66DF</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>47nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDF8828</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDF9724</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>BSS214NW</value>
+      <footprint>Package_TO_SOT_SMD:SOT-323_SC-70</footprint>
+      <datasheet>https://www.infineon.com/dgdl/Infineon-BSS214NW-DS-v02_02-en.pdf?fileId=db3a30431b3e89eb011b695aebc01bde</datasheet>
+      <libsource lib="Transistor_FET" part="BSS214NW" description="20V Vds, 1.5A Id, N-Channel MOSFET, SOT-323"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDFBFBE</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE01430</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>BSS214NW</value>
+      <footprint>Package_TO_SOT_SMD:SOT-323_SC-70</footprint>
+      <datasheet>https://www.infineon.com/dgdl/Infineon-BSS214NW-DS-v02_02-en.pdf?fileId=db3a30431b3e89eb011b695aebc01bde</datasheet>
+      <libsource lib="Transistor_FET" part="BSS214NW" description="20V Vds, 1.5A Id, N-Channel MOSFET, SOT-323"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE03A2A</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE04F65</tstamp>
+    </comp>
+    <comp ref="T1">
+      <value>42XL003-RC</value>
+      <footprint>Aaron:Transformer_42XL_EI-14</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Transformer_SP_1S" description="Transformer, split primary, single secondary"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE06096</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>SS24FL</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/SS26FL-D.PDF</datasheet>
+      <fields>
+        <field name="Desc">Diode Schottky 40V 2A Surface Mount SOD-123F</field>
+        <field name="MPN">SS24FL</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">I</field>
+      </fields>
+      <libsource lib="Aaron" part="SS24FL" description="Schottky diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE40959</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>SS24FL</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/SS26FL-D.PDF</datasheet>
+      <fields>
+        <field name="Desc">Diode Schottky 40V 2A Surface Mount SOD-123F</field>
+        <field name="MPN">SS24FL</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">I</field>
+      </fields>
+      <libsource lib="Aaron" part="SS24FL" description="Schottky diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE413E4</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>39.2</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE44517</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>39.2</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE4560C</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>4.7nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE46CBC</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>4.7nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE47C41</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>1nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE48125</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>1nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE485E2</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>1nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE4F6E7</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>1nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE4F6ED</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE5A717</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>SI3493DDV-T1-GE3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>http://www.vishay.com/docs/74735/si3493ddv.pdf</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">http://www.vishay.com/docs/74735/si3493ddv.pdf</field>
+        <field name="DK_Detail_Page">https://www.digikey.com/product-detail/en/vishay-siliconix/SI3493DDV-T1-GE3/</field>
+        <field name="Description">MOSFET P-CH 20V 8A 6TSOP</field>
+        <field name="Digi-Key_PN">SI3493DDV-T1-GE3TR-ND</field>
+        <field name="Family">Transistors - FETs, MOSFETs - Single</field>
+        <field name="MFR">Vishay Siliconix</field>
+        <field name="MPN">SI3493DDV-T1-GE3</field>
+        <field name="Manufacturer">Vishay Siliconix</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="Aaron" part="SI3493DDV-T1-GE3" description="MOSFET P-CH 20V 8A 6TSOP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE5B703</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE679D3</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>BSS138</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</datasheet>
+      <libsource lib="Transistor_FET" part="BSS138" description="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE68D99</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE6CB76</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE6D32C</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE0EEFE</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE1E6EA</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x03</value>
+      <footprint>Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE3E97F</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE45D9D</tstamp>
+    </comp>
+    <comp ref="FID1">
+      <value>FIDUCIAL_1MM</value>
+      <footprint>Fiducial:Fiducial_0.5mm_Mask1mm</footprint>
+      <libsource lib="fiducial" part="FIDUCIAL_1MM" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE6C5F2</tstamp>
+    </comp>
+    <comp ref="FID2">
+      <value>FIDUCIAL_1MM</value>
+      <footprint>Fiducial:Fiducial_0.5mm_Mask1mm</footprint>
+      <libsource lib="fiducial" part="FIDUCIAL_1MM" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE6CAEC</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE6E095</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE6E613</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE6F486</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE6F8B4</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEB9275</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEBBA57</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Aaron" part="SI3493DDV-T1-GE3">
+      <description>MOSFET P-CH 20V 8A 6TSOP</description>
+      <docs>http://www.vishay.com/docs/74735/si3493ddv.pdf</docs>
+      <footprints>
+        <fp>TSOP-6_1.65x3.05mm_P0.95mm</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">SI3493DDV-T1-GE3</field>
+        <field name="Footprint">digikey-footprints:SOT-23-3</field>
+        <field name="Datasheet">http://www.vishay.com/docs/74735/si3493ddv.pdf</field>
+        <field name="MFR">Vishay Siliconix</field>
+        <field name="MPN">SI3493DDV-T1-GE3</field>
+        <field name="Digi-Key_PN">SI3493DDV-T1-GE3TR-ND</field>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="Family">Transistors - FETs, MOSFETs - Single</field>
+        <field name="DK_Datasheet_Link">http://www.vishay.com/docs/74735/si3493ddv.pdf</field>
+        <field name="DK_Detail_Page">https://www.digikey.com/product-detail/en/vishay-siliconix/SI3493DDV-T1-GE3/</field>
+        <field name="Description">MOSFET P-CH 20V 8A 6TSOP</field>
+        <field name="Manufacturer">Vishay Siliconix</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D" type="BiDi"/>
+        <pin num="2" name="D" type="BiDi"/>
+        <pin num="3" name="G" type="BiDi"/>
+        <pin num="4" name="S" type="BiDi"/>
+        <pin num="5" name="D" type="BiDi"/>
+        <pin num="6" name="D" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="Aaron" part="SS24FL">
+      <aliases>
+        <alias>SS26FL</alias>
+      </aliases>
+      <description>Schottky diode</description>
+      <docs>https://www.onsemi.com/pub/Collateral/SS26FL-D.PDF</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SS24FL</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123</field>
+        <field name="MPN">SS24FL</field>
+        <field name="Desc">Diode Schottky 40V 2A Surface Mount SOD-123F</field>
+        <field name="Spice_Primitive">I</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Transformer_SP_1S">
+      <description>Transformer, split primary, single secondary</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">T</field>
+        <field name="Value">Transformer_SP_1S</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PR1" type="passive"/>
+        <pin num="2" name="PM" type="passive"/>
+        <pin num="3" name="PR2" type="passive"/>
+        <pin num="4" name="S1" type="passive"/>
+        <pin num="5" name="S2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Timer" part="NE555D">
+      <aliases>
+        <alias>LM555xM</alias>
+        <alias>ICM7555xB</alias>
+        <alias>LMC555xM</alias>
+        <alias>MC1455B</alias>
+        <alias>TLC555xD</alias>
+        <alias>NA555D</alias>
+        <alias>SE555D</alias>
+        <alias>SA555D</alias>
+      </aliases>
+      <description>Precision Timers, 555 compatible, SOIC-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/ne555.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NE555D</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="TR" type="input"/>
+        <pin num="3" name="Q" type="output"/>
+        <pin num="4" name="R" type="input"/>
+        <pin num="5" name="CV" type="input"/>
+        <pin num="6" name="THR" type="input"/>
+        <pin num="7" name="DIS" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="BSS138">
+      <aliases>
+        <alias>2N7002</alias>
+        <alias>2N7002E</alias>
+        <alias>2N7002H</alias>
+        <alias>2N7002K</alias>
+        <alias>BS170F</alias>
+        <alias>BS870</alias>
+        <alias>BSN20</alias>
+        <alias>BSS123</alias>
+        <alias>BSS127S</alias>
+        <alias>DMG2302U</alias>
+        <alias>DMG3402L</alias>
+        <alias>DMG3404L</alias>
+        <alias>DMG3406L</alias>
+        <alias>DMG3414U</alias>
+        <alias>DMG3418L</alias>
+        <alias>DMN10H220L</alias>
+        <alias>DMN10H700S</alias>
+        <alias>DMN13H750S</alias>
+        <alias>DMN2041L</alias>
+        <alias>DMN2050L</alias>
+        <alias>DMN2056U</alias>
+        <alias>DMN2058U</alias>
+        <alias>DMN2075U</alias>
+        <alias>DMN2230U</alias>
+        <alias>DMN24H11DS</alias>
+        <alias>DMN24H3D5L</alias>
+        <alias>DMN3042L</alias>
+        <alias>DMN3051L</alias>
+        <alias>DMN30H4D0L</alias>
+        <alias>DMN3110S</alias>
+        <alias>DMN3150L</alias>
+        <alias>DMN3300U</alias>
+        <alias>DMN3404L</alias>
+        <alias>DMN6075S</alias>
+        <alias>DMN6140L</alias>
+        <alias>DMN67D7L</alias>
+        <alias>DMN67D8L</alias>
+        <alias>MMBF170</alias>
+        <alias>VN10LF</alias>
+        <alias>ZVN3306F</alias>
+        <alias>ZVN3310F</alias>
+        <alias>ZVN3320F</alias>
+        <alias>ZVN4106F</alias>
+        <alias>ZXM61N02F</alias>
+        <alias>ZXM61N03F</alias>
+        <alias>ZXMN10A07F</alias>
+        <alias>ZXMN2A01F</alias>
+        <alias>ZXMN2A14F</alias>
+        <alias>ZXMN2B01F</alias>
+        <alias>ZXMN2B14FH</alias>
+        <alias>ZXMN2F30FH</alias>
+        <alias>ZXMN2F34FH</alias>
+        <alias>ZXMN3A01F</alias>
+        <alias>ZXMN3A14F</alias>
+        <alias>ZXMN3B01F</alias>
+        <alias>ZXMN3B14F</alias>
+        <alias>ZXMN3F30FH</alias>
+        <alias>ZXMN6A07F</alias>
+        <alias>IRLML0030</alias>
+        <alias>IRLML2060</alias>
+        <alias>TSM2302CX</alias>
+        <alias>AO3400A</alias>
+      </aliases>
+      <description>50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSS138</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="BSS214NW">
+      <description>20V Vds, 1.5A Id, N-Channel MOSFET, SOT-323</description>
+      <docs>https://www.infineon.com/dgdl/Infineon-BSS214NW-DS-v02_02-en.pdf?fileId=db3a30431b3e89eb011b695aebc01bde</docs>
+      <footprints>
+        <fp>SOT?323*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSS214NW</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-323_SC-70</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="fiducial" part="FIDUCIAL_1MM">
+      <fields>
+        <field name="Reference">FID</field>
+        <field name="Value">FIDUCIAL_1MM</field>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Aaron">
+      <uri>/home/aaronw/kicad/library/aaron/Aaron.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/library/Mechanical.lib</uri>
+    </library>
+    <library logical="Timer">
+      <uri>/usr/share/kicad/library/Timer.lib</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>/usr/share/kicad/library/Transistor_FET.lib</uri>
+    </library>
+    <library logical="fiducial">
+      <uri>/home/aaronw/kicad/library/library-kicad/fiducial.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(Q2-Pad1)">
+      <node ref="R2" pin="2"/>
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="C12" pin="2"/>
+      <node ref="J1" pin="3"/>
+      <node ref="C11" pin="2"/>
+      <node ref="R8" pin="2"/>
+      <node ref="H1" pin="1"/>
+      <node ref="H2" pin="1"/>
+      <node ref="H4" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="H3" pin="1"/>
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="3" name="Net-(Q1-Pad3)">
+      <node ref="Q2" pin="3"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="4" name="Net-(J2-Pad2)">
+      <node ref="T1" pin="4"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="5" name="Net-(J2-Pad1)">
+      <node ref="T1" pin="5"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="6" name="Net-(D3-Pad1)">
+      <node ref="R8" pin="1"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="7" name="+5V">
+      <node ref="R1" pin="1"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="D2" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="Q1" pin="5"/>
+      <node ref="Q1" pin="6"/>
+    </net>
+    <net code="8" name="/EN">
+      <node ref="J1" pin="2"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="9" name="Net-(C9-Pad1)">
+      <node ref="U1" pin="5"/>
+      <node ref="C9" pin="1"/>
+    </net>
+    <net code="10" name="Net-(R6-Pad1)">
+      <node ref="R6" pin="1"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="11" name="Net-(Q3-Pad1)">
+      <node ref="Q3" pin="1"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="12" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="Q4" pin="3"/>
+      <node ref="T1" pin="3"/>
+    </net>
+    <net code="13" name="/5V_SW">
+      <node ref="C2" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="T1" pin="2"/>
+      <node ref="C12" pin="1"/>
+      <node ref="U1" pin="8"/>
+      <node ref="Q1" pin="4"/>
+      <node ref="D3" pin="2"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="14" name="Net-(R7-Pad1)">
+      <node ref="U1" pin="7"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="15" name="Net-(C10-Pad1)">
+      <node ref="U1" pin="6"/>
+      <node ref="U1" pin="2"/>
+      <node ref="C10" pin="1"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="16" name="Net-(C3-Pad1)">
+      <node ref="R3" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="17" name="Net-(C6-Pad1)">
+      <node ref="C8" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="18" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="T1" pin="1"/>
+      <node ref="Q3" pin="3"/>
+    </net>
+    <net code="19" name="Net-(Q4-Pad1)">
+      <node ref="R5" pin="2"/>
+      <node ref="Q4" pin="1"/>
+    </net>
+  </nets>
+</export>
